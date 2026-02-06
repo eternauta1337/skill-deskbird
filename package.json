@@ -1,0 +1,42 @@
+{
+  "name": "@openclaw/skill-deskbird",
+  "version": "0.1.0",
+  "description": "Deskbird integration skill for OpenClaw - desk booking and office management",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "deskbird": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "deskbird",
+    "desk-booking",
+    "office-management",
+    "hybrid-work"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "date-fns": "^3.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
