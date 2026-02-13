@@ -4,3 +4,6 @@ dist/
 .env
 .env.*
 deskbird.json
+
+# OS
+.DS_Store
